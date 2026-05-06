@@ -1,21 +1,59 @@
+
 body {
-    background-color: #1a1a1a;
-    color: #f0f0f0;            
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
 }
 
-h1{
-    color: #ffcc00; 
-    font-family: "Courier New", Courier, monospace;
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
-a {
-    color: #00ff00;
+
+#intro-pag {
+    background-color: #1a1a1a;
+    color: #00ff41; 
+    padding: 40px;
+    text-align: center;
+    border-bottom: 4px solid #00ff41;
+}
+
+.conteudo-padrao {
+    background-color: #262626;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+.pagina-aluno {
+    background-color: #0d0221;
+}
+
+.pagina-aluno #intro-pag {
+    background-color: #261447;
+    color: #ff9e00; 
+    border-bottom: 4px solid #ff9e00;
+}
+
+.pagina-aluno .conteudo-padrao {
+    background-color: #210b2c;
+    color: #e0e0e0;
+    border-left: 5px solid #ff9e00; 
+}
+
+.pagina-aluno a {
+    color: #ff9e00;
     text-decoration: none;
+    font-weight: bold;
 }
 
-a:hover {
-    text-decoration: underline;
+.pagina-aluno li {
+    margin-bottom: 10px;
 }
-
